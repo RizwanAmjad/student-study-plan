@@ -1,0 +1,19 @@
+.course-container {
+  padding: 1rem;
+  box-shadow: 0px 0px 4px black;
+  border-radius: 16px;
+  height: 10rem;
+  scale: 0.95;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.course-container:hover {
+  scale: 1;
+  box-shadow: 0px 0px 8px black;
+}
+
+.selected,
+.selected:hover {
+  box-shadow: 0px 0px 8px dodgerblue;
+}

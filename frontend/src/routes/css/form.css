@@ -1,0 +1,29 @@
+.form-link {
+  text-align: center;
+}
+
+.form-link a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.form-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 30%;
+}
+
+@media screen and (max-width: 800px) {
+  .form-container {
+    padding: 4rem 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form-container {
+    padding: 4rem 5%;
+  }
+}

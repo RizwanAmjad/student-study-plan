@@ -1,0 +1,25 @@
+.courses-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 1rem; */
+  padding: 1rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  border-width: 0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .courses-container {
+    display: block;
+  }
+}
